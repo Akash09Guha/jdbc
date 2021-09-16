@@ -63,7 +63,7 @@ public class DeleteTest {
 		
 			preparedStatement.close();
 			conn.close();
-			System.out.println("DB resources are closed....");
+			System.out.println("Database resources are closed......");
 		} catch (SQLException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
